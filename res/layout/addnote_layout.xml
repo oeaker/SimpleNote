@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="标题"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/title_addText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入日记标题"
+        android:maxLines="2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="内容"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/content_addText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:hint="请输入日记内容"
+        android:maxLines="10" />
+
+    <Button
+        android:id="@+id/commit_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="写好了，提交"
+        android:textSize="20sp" />
+
+</LinearLayout>
