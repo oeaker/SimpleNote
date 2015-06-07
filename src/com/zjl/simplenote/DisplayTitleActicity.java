@@ -140,7 +140,7 @@ public class DisplayTitleActicity extends Activity implements
 					"this is a notify", System.currentTimeMillis());
 
 			intent = new Intent(Intent.ACTION_DIAL);
-			intent.setData(Uri.parse("tel:15386638167"));
+			intent.setData(Uri.parse("tel:13800138000"));
 			PendingIntent pi = PendingIntent.getActivity(this, 0, intent,
 					PendingIntent.FLAG_CANCEL_CURRENT);
 
