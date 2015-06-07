@@ -136,7 +136,7 @@ public class DisplayTitleActicity extends Activity implements
 
 			NotificationManager manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
 			@SuppressWarnings("deprecation")
-			Notification notify = new Notification(R.drawable.honey,
+			Notification notify = new Notification(R.drawable.ic_launcher,
 					"this is a notify", System.currentTimeMillis());
 
 			intent = new Intent(Intent.ACTION_DIAL);
