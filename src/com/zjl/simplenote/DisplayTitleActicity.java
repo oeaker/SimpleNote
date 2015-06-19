@@ -147,7 +147,7 @@ public class DisplayTitleActicity extends Activity implements
 			notify.setLatestEventInfo(this, "想你", "点击听她的声音", pi);
 
 			Uri soundUri = Uri.fromFile(new File(
-					"/system/media/audio/ringtones/ Basic_tone.ogg"));
+					"/system/media/audio/ringtones/Basic_tone.ogg"));
 			notify.sound = soundUri;
 
 			long[] vibrates = { 0, 1000, 1000, 1000 };
